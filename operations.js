@@ -8,8 +8,14 @@ var resta = function suma (a, b) {
 	return a - b;	
 };
 
+/* Función par */
+var resta = function par (a) {
+	return a%2;	
+};
+
 /* Exportación de funciones */
 module.exports = {
 	suma,
-	resta
+	resta,
+	par
 }
