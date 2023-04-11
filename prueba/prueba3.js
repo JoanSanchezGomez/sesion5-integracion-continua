@@ -10,7 +10,7 @@ Prueba
 it('comprobar función par', function() {
   operaciones. par debería. ser. a. Función();
   debería. igual(operaciones. par(2), 3);
-  debería. igual(operaciones. resta(4), 0);
-	debería. igual(operaciones. resta(5), 1);
+  debería. igual(operaciones. par(4), 0);
+	debería. igual(operaciones. par(5), 1);
 });
 
