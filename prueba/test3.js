@@ -10,6 +10,6 @@ var operaciones = require('../operations.js');
 it('comprobar función resta', function() {
   operaciones.resta.should.be.a.Function();
   should.equal(operaciones.par(2), 0);
-  should.equal(operaciones.resta(4), 0);
-	should.equal(operaciones.resta(5), 1);
+  should.equal(operaciones.par(4), 0);
+	should.equal(operaciones.par(5), 1);
 });
