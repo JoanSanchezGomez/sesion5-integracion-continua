@@ -9,7 +9,7 @@ var resta = function suma (a, b) {
 };
 
 /* Función par */
-var resta = function par (a) {
+var esPar = function par (a) {
 	return a%2;	
 };
 
