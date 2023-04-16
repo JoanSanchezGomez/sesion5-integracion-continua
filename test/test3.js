@@ -5,7 +5,8 @@ const { assert } = require('chai');
 const math = require('../math');
 
 // Tests
-describe('Módulo math', function () {
+describe('Módulo math', function ()
+         {
     describe('Función suma', function () {
         it('Suma de números positivos', function () {
             assert.equal(math.sumar(4, 6), 10);
@@ -30,6 +31,7 @@ describe('Módulo math', function () {
             assert.equal(math.restar(-2, -3), 1);
         });
         
+    });
            describe('Función par', function () {
         it('Resta de números positivos', function () {
             assert.equal(math.par(4), 0);
