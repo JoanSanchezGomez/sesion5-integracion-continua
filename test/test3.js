@@ -33,7 +33,7 @@ describe('Módulo math', function ()
         
     });
            describe('Función par', function () {
-        it('Resta de números positivos', function () {
+        it('Comprueba si numero es par', function () {
             assert.equal(math.par(4), 0);
             assert.equal(math.par(6), 0);
             assert.equal(math.par(5), 1);
