@@ -29,20 +29,15 @@ describe('Módulo math', function () {
         it('Resta de números negativos', function () {
             assert.equal(math.restar(-2, -3), 1);
         });
-    });
         
-        
-        describe('Función par', function () {
+           describe('Función par', function () {
         it('Resta de números positivos', function () {
             assert.equal(math.par(4), 0);
             assert.equal(math.par(6), 0);
             assert.equal(math.par(5), 1);
         });
         
+    });
         
-});
-
-
-
-
-
+        
+  
