@@ -1,8 +1,8 @@
 // Librerías para testeo
-//const { assert } = require('chai');
+const { assert } = require('chai');
 
 // Carga del programa principal
-//const math = require('../math');
+const math = require('../math');
 
 // Tests
 describe('Módulo math', function ()
