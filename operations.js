@@ -4,7 +4,7 @@ var suma = function suma (a, b) {
 };
 
 /* Función resta */
-var resta = function suma (a, b) {
+var resta = function resta (a, b) {
 	return a - b;	
 };
 
