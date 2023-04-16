@@ -11,7 +11,12 @@
     "author": "Pedro Prieto Alarcón",
     "license": "MIT",
     "devDependencies": {
-        "mocha": "^8.3.2",
+        "chai": "^4.3.7",
+        "math": "^0.0.3",
+        "mocha": "^10.2.0",
         "should": "^13.2.3"
+    },
+    "dependencies": {
+        "mathjs": "^11.8.0"
     }
 }
