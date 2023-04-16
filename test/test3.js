@@ -22,11 +22,14 @@ describe('Función resta', function () {
     });
 
 
-// Test
 describe('Función par', function () {
-it('comprobar función par', function() {
-  operaciones.par.should.be.a.Function();
-  should.equal(operaciones.par(2), 0);
-  should.equal(operaciones.par(4), 0);
-  should.equal(operaciones.par(5), 1);
-});
+        it('Resta de números positivos', function () {
+            assert.equal(math.par(4), 0);
+            assert.equal(math.par(6), 0);
+            assert.equal(math.par(5), 1);
+        });
+        
+    });
+
+
+
