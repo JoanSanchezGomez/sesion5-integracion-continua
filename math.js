@@ -6,7 +6,12 @@ function restar(a,b) {
     return a-b;
 }
 
+function par(a) {
+    return a%2;
+}
+
 module.exports = {
     sumar,
-    restar
+    restar,
+    par
 }

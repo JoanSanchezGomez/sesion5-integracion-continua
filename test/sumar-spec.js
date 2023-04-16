@@ -30,4 +30,19 @@ describe('Módulo math', function () {
             assert.equal(math.restar(-2, -3), 1);
         });
     });
+    
+    
+    
+    describe('Función par', function () {
+        it('Comprueba si un numero es par', function () {
+            assert.equal(math.par(4), 0);
+            assert.equal(math.par(5), 1);
+           });
+        
+       
+    });
+    
+    
+    
+    
 });
